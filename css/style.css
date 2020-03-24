@@ -1,0 +1,98 @@
+/**Shopping Cart Stylesheet**/
+
+html,body {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+/******Header******/
+
+.navbar-bg {
+  background-color: #353a40;
+}
+
+.navbar a.nav-link,a.dropdown-toggle {
+  color: white;
+}
+
+.navbar-brand {
+  color: seagreen !important;
+}
+
+a.dropdown-toggle:hover {
+  color: seagreen;
+  text-decoration: none;
+}
+
+/******Shopping container******/
+
+.shopping-container {
+  background-color: #dbdbdb;
+  padding: 30px 0;
+  color: white;
+}
+
+
+.shopping-container .container {
+  background-color: #353a40;
+  height: 300px;
+  border-radius: 5px;
+}
+/***Title bloc***/
+
+.shopping-container .title-bar {
+  display: flex;
+  padding: 10px;
+}
+
+.title-bar > svg {
+  margin: 0 30px;
+}
+
+.title-bar h2 > span {
+  margin-left: 10px;
+}
+
+/***Items bloc***/
+
+.shopping-container .items-bloc {
+  background-color: white;
+  color: black;
+}
+
+.items-bloc .item {
+  height: 200px;
+}
+
+.items-bloc .reset {
+  color: red;
+}
+
+.item .reset-bloc a {
+  margin: 0 10px;
+}
+
+.item .like {
+  color: black;
+}
+
+.item .like:hover, .item .like:active {
+  color: red;
+}
+
+.item .qty-bloc button {
+  color: green;
+}
+
+.item .qty-bloc a:hover {
+  color: yellowgreen;
+}
